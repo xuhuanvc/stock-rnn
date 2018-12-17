@@ -5,7 +5,7 @@ from evaluate import EvalSet
 ticker = sys.argv[2] + '.csv'
 
 if sys.argv[1] == 'train':
-    Trainer = TrainSet(ticker, LogReturn = False)
+    Trainer = TrainSet(ticker, LogReturn = True)
     Trainer(sys.argv[3])
 else:
     Evaluator = EvalSet(ticker, LogReturn = True)
