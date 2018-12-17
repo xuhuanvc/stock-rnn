@@ -8,7 +8,6 @@ For examples,
 - To download from Apple prices
 ```bash
 python3 data_cleaning.py AAPL
-AAPL Download Complete
 ```
 - To train Apple's price by an LSTM model and save the model
 ```
